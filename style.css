@@ -33,7 +33,7 @@ padding: 0;}
  
  .card-one__button{
     padding: 6px;
-    margin-top: 90px;
+    margin-top: 40px;
     background-color: black;
     color: white;
     
@@ -58,4 +58,20 @@ padding: 0;}
         padding-top: 5px;
         padding-bottom: 5px;
         background-color: rgb(255, 234, 43);
+        
+    }
+    .card-one:hover{
+      background-color: black;
+      color: white;
+      transition: 1s;
+      width: 250px;
+      margin-left: 30px;
+      margin-right:30px;
+    }
+    .card-one__image{
+      width: 100%;
+    }
+    .card-one__button:hover{
+      background-color: aliceblue;
+      color: black;
     }
